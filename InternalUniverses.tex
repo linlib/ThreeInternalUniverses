@@ -747,7 +747,43 @@ Copyright\ \textcopyright \ June 2023 Elliot Dean Young.\ All rights reserved.\\
 \newpage
 \section{Contents}
 
-After establishing the three universal properties for D(∞-Cat), D(∞-Grpd), D(∞-Grpd₀) 
+In this repository, I would like to think about the left adjoint to precomposition in the case of the derived completion functors:
+
+\begin{enumerate}
+\item (completion of an ∞-category with respect to the directed derived category D(∞-Cat))
+\begin{center}
+ χ⃗  : (X : ∞-Cat) → (Y : ∞-Cat) → ∞-Cat.hom X Y → Adjunction [-ᵒᵖ,D(∞-Cat)] [-ᵒᵖ,D(∞-Cat)] 
+\end{center}
+\item (completion of an ∞-groupoid with respect to the directed derived category D(∞-Grpd)) χ⃡ : [-ᵒᵖ,D(∞-Grpd)] ⇄ [-ᵒᵖ,D(∞-Grpd)]
+\begin{center}
+ χ⃡ : (X : ∞-Grpd) → (Y :∞-Grpd) → ∞-Grpd.hom X Y → Adjunction [-ᵒᵖ,D(∞-Grpd)] [-ᵒᵖ,D(∞-Grpd)]
+\end{center}
+\item (completion of a based connected ∞-groupoid with respect to the category of based connected ∞-groupoids) χ : [-ᵒᵖ,D(∞-Grpd₀)] ⇄ [-ᵒᵖ,D(∞-Grpd₀)] :
+\begin{center}
+ χ : (X : ∞-Grpd₀) → (Y :∞-Grpd₀) → ∞-Grpd₀.hom X Y → Adjunction [-ᵒᵖ,D(∞-Grpd₀)] [-ᵒᵖ,D(∞-Grpd₀)]
+\end{center}
+\end{enumerate}
+
+
+
+I like to use a notation of upper and lower dots for the left and right adjoint in $\texttt{Lean 4}$, but it requires specific fonts that not all systems have, and the two different characters do not always display like one another.\\
+
+These three functors produce 
+
+\begin{enumerate}
+\item Links back to the category section concerning the category of elements and how it can be used to express pointed Kan extensions.
+\item χॱ.hom : Functor D(∞-Cat) ⇄ D(∞-Cat) : χ𛲔
+\item χ
+\item ∞_(∞-Lan) : D(∞-Cat) ⭢ :in
+\end{enumerate}
+
+After establishing several interesting features of Lan D(∞-Cat),  Fᵒᵖ : [Cᵒᵖ,D(∞-Cat)] ↔ [Dᵒᵖ,D(∞-Cat)] : Cmp
+
+
+
+
+
+[D(∞-Grpd), D(∞-Grpd₀)]
 
 Some further goals:
 \begin{enumerate}
@@ -759,6 +795,16 @@ Some further goals:
 \item 
 \end{enumerate}
 \end{enumerate}
+
+\section{Lan D(∞-Cat)}
+
+
+
+\section{}
+
+
+
+\section{}
 
 
 

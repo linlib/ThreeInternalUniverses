@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PYG{k+kn}{import} \PYG{n}{Mathlib.CategoryTheory.Bicategory.Basic}
+\PYG{k+kn}{import} \PYG{n}{Mathlib.CategoryTheory.Types}
+\PYG{k+kn}{import} \PYG{n}{Mathlib.CategoryTheory.DiscreteCategory}
+\PYG{k+kn}{import} \PYG{n}{Mathlib.Combinatorics.Quiver.Basic}
+\PYG{k+kn}{import} \PYG{n}{Mathlib.CategoryTheory.Category.Init}
+\PYG{k+kn}{import} \PYG{n}{Aesop}
+\PYG{k+kn}{import} \PYG{n}{Init}
+\PYG{k+kn}{import} \PYG{n}{Mathlib.CategoryTheory.DiscreteCategory}
+\PYG{k+kn}{import} \PYG{n}{Mathlib.CategoryTheory.Bicategory.Strict}
+\PYG{k+kn}{import} \PYG{n}{Mathlib.CategoryTheory.ConcreteCategory.Bundled}
+\PYG{k+kn}{import} \PYG{n}{Mathlib.CategoryTheory.Functor.Basic}
+\PYG{k+kn}{import} \PYG{n}{Init.Core}
+\PYG{k+kn}{import} \PYG{n}{Mathlib.CategoryTheory.Category.Cat}
+
+\PYG{k+kn}{import} \PYG{n}{TheWhiteheadTheorem}
+
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} \PYGZsh{}check}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} \PYGZsh{}}
+\end{Verbatim}

@@ -504,12 +504,26 @@ Here are the packages that I use
   \begin{tcolorbox}[width=6.5in,colback={white},coltitle=white]
   \begin{center}
   \ \\
-  \scalebox{2.3}{\texttt{𝔾𝕖𝕠𝕞𝕖𝕥𝕣𝕚𝕔 𝕄𝕒𝕡𝕤 𝕚𝕟 ℍ𝕚𝕘𝕙𝕖𝕣 𝕋𝕠𝕡𝕠𝕤 𝕋𝕙𝕖𝕠𝕣𝕪}}
+  \scalebox{2.3}{\texttt{𝕀𝕟𝕥𝕖𝕣𝕟𝕒𝕝 𝕌𝕟𝕚𝕧𝕖𝕣𝕤𝕖𝕤}}
   \ \\
   \end{center}
   \end{tcolorbox}
   \end{center}
   \ \\
+
+{\footnotesize
+\begin{center}
+\scalebox{1.1}{
+\begin{tabular}{|| l | l || l | l || l | l || l | l || } 
+\hline
+$\texttt{∞\_(∞-Cat)}$    & B⃗ & E⃗ & $\texttt{∞\_(∞-Cat)⁄C}$ & b⃗ & e⃗\\
+\hline
+$\texttt{∞\_(∞-Grpd)}$   & B⃡ & E⃡ & $\texttt{∞\_(∞-Grpd)⁄G}$ & b⃡ & e⃡\\
+ \hline
+$\texttt{∞\_(∞-Grpd₀)}$  & B & E & $\texttt{∞\_(∞-Grpd₀)⁄G₀}$ & b & e\\
+ \hline
+\end{tabular}}
+\end{center}}
   
 %LEAN: 
 \begin{center}
@@ -520,27 +534,7 @@ Here are the packages that I use
 \end{tcolorbox}
 \end{center}
 
-\ \\
-
-  {
-  \footnotesize
-  \begin{longtable}{|| l || l ||} 
-  \hline
-  \multicolumn{2}{||c||}{Topological Duality} \\
-  \hline
-  \hline
-  Open & Closed \\
-  \hline
-  Universally Open & Universally Closed \\
-  \hline
-  Unramified & Separated \\
-  \hline
-  Étale & Proper \\
-  \hline
-  \end{longtable}
-  }
-\ \\
-
+\newpage
 
 
 \thispagestyle{empty}
@@ -737,13 +731,6 @@ Copyright\ \textcopyright \ June 2023 Elliot Dean Young.\ All rights reserved.\\
 \ \\
 \thispagestyle{empty}
  
-
-
-\newpage
-
-\iffalse
-
-
 \newpage
 \section{Contents}
 
@@ -766,6 +753,14 @@ In this repository, I would like to think about the left adjoint to precompositi
 
 
 
+\begin{enumerate}
+\item E, e and the various `up to homotopy' structures (six)
+\item 
+\end{enumerate}
+
+
+
+
 I like to use a notation of upper and lower dots for the left and right adjoint in $\texttt{Lean 4}$, but it requires specific fonts that not all systems have, and the two different characters do not always display like one another.\\
 
 These three functors produce 
@@ -778,8 +773,6 @@ These three functors produce
 \end{enumerate}
 
 After establishing several interesting features of Lan D(∞-Cat),  Fᵒᵖ : [Cᵒᵖ,D(∞-Cat)] ↔ [Dᵒᵖ,D(∞-Cat)] : Cmp
-
-
 
 
 
@@ -798,13 +791,6 @@ Some further goals:
 
 \section{Lan D(∞-Cat)}
 
-
-
-\section{}
-
-
-
-\section{}
 
 
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.8)  31 MAR 2024 06:12
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.8)  1 APR 2024 12:48
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1058,4 +1058,336 @@ LaTeX Info: Redefining \nameref on input line 399.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
 * h-part:(L,W,R)=(93.95122pt, 426.39256pt, 93.95122pt)
-* v-part
+* v-part:(T,H,B)=(93.95122pt, 607.06755pt, 93.95122pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=426.39256pt
+* \textheight=607.06755pt
+* \oddsidemargin=21.68123pt
+* \evensidemargin=21.68123pt
+* \topmargin=-8.38626pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
+
+ []
+
+
+Overfull \hbox (43.36243pt too wide) in paragraph at lines 510--510
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 512--513
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 525
+.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 525
+.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 52
+5.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+File: ll.png Graphic file (type bmp)
+<ll.png>
+File: ll.png Graphic file (type bmp)
+<ll.png>
+ [1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 544--544
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--544
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+bbold on input line 5
+98.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/bbold/Ubbold.fd)
+Missing character: There is no ≫ (U+226B) in font STIX Two Text Regular/OT:scri
+pt=latn;language=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 660--661
+
+ []
+
+\openout3 = `InternalUniverses.pyg'.
+
+(./_minted-InternalUniverses/default.pygstyle)
+(./_minted-InternalUniverses/5F98E20DEBC9FA1C1B09BFD2B3126D0B1BA0C809227AC3E8B3
+FB8B5B72E5CA78.pygtex
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
+) [3] [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 715--718
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 715--718
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 723--735
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--735
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--735
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--735
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--735
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--735
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--735
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--735
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--735
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--735
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--735
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 737--737
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 737--737
+
+ []
+
+Missing character: There is no ω (U+03C9) in font [lmmono8-regular]:!
+Missing character: There is no ω (U+03C9) in font [lmmono8-regular]:!
+Missing character: There is no ω (U+03C9) in font [lmmono8-regular]:!
+Missing character: There is no ω (U+03C9) in font [lmmono8-regular]:!
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 830--831
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 830--831
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 833--834
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 833--834
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 837--838
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 837--838
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 841--842
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 841--842
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 846--847
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 846--847
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 849--850
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 849--850
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 853--854
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 853--854
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 857--858
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 857--858
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 863--864
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 863--864
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 881--888
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 881--888
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 881--888
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 881--888
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 881--888
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 881--888
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--891
+
+ []
+
+[18] [19] (./InternalUniverses.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `InternalUniverses.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+runsystem(rm InternalUniverses.pyg)...executed.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 30913 strings out of 476179
+ 658567 string characters out of 5809544
+ 1103182 words of memory out of 5000000
+ 51096 multiletter control sequences out of 15000+600000
+ 482934 words of font info for 108 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 83i,14n,89p,474b,779s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on InternalUniverses.pdf (19 pages).

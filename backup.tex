@@ -1,0 +1,165 @@
+\section{\texttt{Pul}}
+
+A representation is much like a \href{https://ncatlab.org/nlab/show/topos}{topos}, which is a cartesian closed category with finite limits and a subobject classifier. A representation is cartesian closed and has finite limits, but instead of a subobject classifier, there is an overobject classifier. People often give warnings about difficulties with universes, but here we are lucky to have the proof assistant to help prevent subtle mistakes. We also make heavy use the strict twocategory of categories ℂ𝕒𝕥, which acts as a sort of container for all of the ideas at hand.
+
+%LEAN: defining a pullback system
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Blue,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+structure representation where
+  Obj : ℂ𝕒𝕥.Obj
+  Der : Obj.Obj → ℂ𝕒𝕥.Obj
+  Ind : (C₁ : Obj.Obj) → (C₂ : Obj.Obj) → (F : Obj.Hom C D) → (ℂ𝕒𝕥.Hom (Der C) (Der D)).Obj
+  Ded : (C₁ : Obj.Obj) → (C₂ : Obj.Obj) → (F : Obj.Hom C D) → (ℂ𝕒𝕥.Hom (Der D) (Der C)).Obj
+--  η : (C₁ : Obj.Obj) → (C₂ : Obj.Obj) → (F : Obj.Hom C D) → ((ℂ𝕒𝕥.Hom (Der C) (Der D)).Hom () )
+--  ε :
+--  Tr₁ :
+--  Tr₂ :
+--  Idn : (C₁ : Obj.Obj) → (C₂ : Obj.Obj) → (C₃ : Obj.Obj) → 
+--  Cmp :
+--  Pnt : Obj.Obj
+--  Inf : Obj.Obj
+--  
+--  
+
+\end{minted}
+\end{tcolorbox}
+\end{center}
+
+
+%LEAN: defining a map of pullback systems
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Blue,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+\end{minted}
+\end{tcolorbox}
+\end{center}
+
+%LEAN: defining the identity map of two pullback systems
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Blue,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+\end{minted}
+\end{tcolorbox}
+\end{center}
+
+%LEAN: defining the composition of two pullback systems
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Blue,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+\end{minted}
+\end{tcolorbox}
+\end{center}
+
+
+%LEAN: proving the first identity law for maps of pullback systems
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Blue,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+\end{minted}
+\end{tcolorbox}
+\end{center}
+
+
+%LEAN: proving the second identity law for maps of pullback systems
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Blue,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+\end{minted}
+\end{tcolorbox}
+\end{center}
+
+
+%LEAN: proving the associativity law for maps of pullback systems
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Blue,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+\end{minted}
+\end{tcolorbox}
+\end{center}
+
+%LEAN: constructing the category Pul of pullback systems
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Blue,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+\end{minted}
+\end{tcolorbox}
+\end{center}
+
+\section{$\texttt{*\_(Γ)}$}
+
+%LEAN: 
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Blue,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+-- def terminal_object (Γ : representation) : Γ.Rep.Obj.Obj := Γ.Pnt
+
+\end{minted}
+\end{tcolorbox}
+\end{center}
+
+%LEAN: 
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Green,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+-- notation : 1000 "*_(" Γ ")" => terminal_object Γ
+
+\end{minted}
+\end{tcolorbox}
+\end{center}
+
+\section{$\texttt{∞\_(Γ)}$}
+
+
+%LEAN: 
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Blue,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+-- notation "∞_(" Γ ")" => Γ.Obj
+
+\end{minted}
+\end{tcolorbox}
+\end{center}
+
+\section{$\texttt{⊥\_(Γ)}$}
+
+%LEAN: defining ⊥_(Γ) : Γ.Obj.Hom *_(Γ) ∞_(Γ)
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Blue,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+-- defining ⊥_(Γ) : Γ.Obj.Hom *_(Γ) ∞_(Γ)
+/-
+
+-/
+
+\end{minted}
+\end{tcolorbox}
+\end{center}
+
+\section{$\texttt{χ\_(Γ)}$}
+
+%LEAN: defining χ_(Γ) : ???
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Blue,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+-- defining χ_(Γ) : ???
+/-
+
+-/
+
+\end{minted}
+\end{tcolorbox}
+\end{center}

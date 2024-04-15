@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.8)  6 APR 2024 06:00
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.8)  13 APR 2024 18:31
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -904,6 +904,10 @@ File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowwidth=\dimen284
 \pgfarrowlinewidth=\dimen285
 )))
+(/usr/local/texlive/2022/texmf-dist/tex/latex/draftwatermark/draftwatermark.sty
+Package: draftwatermark 2020/12/08 3.0 Put a gray textual watermark on document
+ pages
+)
 \c@definition=\count371
 \c@theorem=\count372
 \c@example=\count373
@@ -926,108 +930,108 @@ runsystem(rm InternalUniverses.aex)...executed.
  (./InternalUniverses.aux)
 \openout1 = `InternalUniverses.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 399.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-99.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 407.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+07.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 399.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 3
-99.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 407.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 4
+07.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 399.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 399.
-LaTeX Font Info:    ... okay on input line 399.
+LaTeX Font Info:    ... okay on input line 407.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 407.
+LaTeX Font Info:    ... okay on input line 407.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 399.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 399.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 399.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 399.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 399.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 399.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 399.
-LaTeX Font Info:    Redeclaring math accent \check on input line 399.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 399.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 399.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 399.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 399.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 399.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 399.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 399.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 399.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 399.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 399.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 399.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 399.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 399.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 399.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 399.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 399.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 399.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 407.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 407.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 407.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 407.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 407.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 407.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 407.
+LaTeX Font Info:    Redeclaring math accent \check on input line 407.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 407.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 407.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 407.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 407.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 407.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 399.
+(Font)              `operators' in the math version `normal' on input line 407.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/STIXTwoText(0)/m/n on input line 399
+(Font)                  OT1/cmr/m/n --> TU/STIXTwoText(0)/m/n on input line 407
 .
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 399.
+(Font)              `operators' in the math version `bold' on input line 407.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/STIXTwoText(0)/m/n on input line 39
-9.
+(Font)                  OT1/cmr/bx/n --> TU/STIXTwoText(0)/m/n on input line 40
+7.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/STIXTwoText(0)/m/n --> TU/STIXTwoText(0)/m/n on inpu
-t line 399.
+t line 407.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/STIXTwoText(0)/m/it on input line 3
-99.
+(Font)                  OT1/cmr/m/it --> TU/STIXTwoText(0)/m/it on input line 4
+07.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/STIXTwoText(0)/b/n on input line 39
-9.
+(Font)                  OT1/cmr/bx/n --> TU/STIXTwoText(0)/b/n on input line 40
+7.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 399.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 407.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 399.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 407.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/STIXTwoText(0)/m/n --> TU/STIXTwoText(0)/b/n on inpu
-t line 399.
+t line 407.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/STIXTwoText(0)/b/it on input line 
-399.
+407.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 399.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 407.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 399.
-Package hyperref Info: Link coloring OFF on input line 399.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 407.
+Package hyperref Info: Link coloring OFF on input line 407.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1041,9 +1045,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count386
 )
-LaTeX Info: Redefining \ref on input line 399.
-LaTeX Info: Redefining \pageref on input line 399.
-LaTeX Info: Redefining \nameref on input line 399.
+LaTeX Info: Redefining \ref on input line 407.
+LaTeX Info: Redefining \pageref on input line 407.
+LaTeX Info: Redefining \nameref on input line 407.
  (./InternalUniverses.out) (./InternalUniverses.out)
 \@outlinefile=\write6
 \openout6 = `InternalUniverses.out'.
@@ -1084,43 +1088,38 @@ LaTeX Info: Redefining \nameref on input line 399.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--464
+Underfull \hbox (badness 10000) in paragraph at lines 448--450
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--464
+Underfull \hbox (badness 10000) in paragraph at lines 448--450
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
 
  []
 
 
-Overfull \hbox (43.36243pt too wide) in paragraph at lines 510--510
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 512--513
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 525
+LaTeX Font Info:    Trying to load font information for U+msa on input line 511
 .
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 525
+LaTeX Font Info:    Trying to load font information for U+msb on input line 511
 .
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 52
-5.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 51
+1.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
@@ -1132,32 +1131,37 @@ File: ll.png Graphic file (type bmp)
  [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 544--544
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 544--544
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 551--551
+Underfull \hbox (badness 10000) in paragraph at lines 537--537
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--551
+Underfull \hbox (badness 10000) in paragraph at lines 537--537
 
  []
 
 LaTeX Font Info:    Trying to load font information for U+bbold on input line 5
-95.
+81.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/bbold/Ubbold.fd)
 Missing character: There is no ≫ (U+226B) in font STIX Two Text Regular/OT:scri
 pt=latn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 657--658
+Underfull \hbox (badness 10000) in paragraph at lines 643--644
 
  []
 
@@ -1169,77 +1173,77 @@ FB8B5B72E5CA78.pygtex
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
 ) [3] [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 712--715
+Underfull \hbox (badness 10000) in paragraph at lines 698--701
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 712--715
+Underfull \hbox (badness 10000) in paragraph at lines 698--701
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 720--732
+Underfull \hbox (badness 10000) in paragraph at lines 706--718
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--732
+Underfull \hbox (badness 10000) in paragraph at lines 706--718
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--732
+Underfull \hbox (badness 10000) in paragraph at lines 706--718
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--732
+Underfull \hbox (badness 10000) in paragraph at lines 706--718
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--732
+Underfull \hbox (badness 10000) in paragraph at lines 706--718
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--732
+Underfull \hbox (badness 10000) in paragraph at lines 706--718
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--732
+Underfull \hbox (badness 10000) in paragraph at lines 706--718
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--732
+Underfull \hbox (badness 10000) in paragraph at lines 706--718
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--732
+Underfull \hbox (badness 10000) in paragraph at lines 706--718
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--732
+Underfull \hbox (badness 10000) in paragraph at lines 706--718
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--732
+Underfull \hbox (badness 10000) in paragraph at lines 706--718
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 734--734
+Underfull \hbox (badness 10000) in paragraph at lines 720--720
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 734--734
+Underfull \hbox (badness 10000) in paragraph at lines 720--720
 
  []
 
@@ -1248,131 +1252,129 @@ Missing character: There is no ω (U+03C9) in font [lmmono8-regular]:!
 Missing character: There is no ω (U+03C9) in font [lmmono8-regular]:!
 Missing character: There is no ω (U+03C9) in font [lmmono8-regular]:!
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 827--828
+Underfull \hbox (badness 10000) in paragraph at lines 798--799
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 827--828
+Underfull \hbox (badness 10000) in paragraph at lines 798--799
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 830--831
+Underfull \hbox (badness 10000) in paragraph at lines 801--802
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 830--831
+Underfull \hbox (badness 10000) in paragraph at lines 801--802
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 834--835
+Underfull \hbox (badness 10000) in paragraph at lines 806--807
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 834--835
+Underfull \hbox (badness 10000) in paragraph at lines 806--807
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 838--839
+Underfull \hbox (badness 10000) in paragraph at lines 810--811
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 838--839
+Underfull \hbox (badness 10000) in paragraph at lines 810--811
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2037--2038
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2039--2040
+
+ []
+
+Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
+Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
+Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
+Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
+
+Overfull \hbox (0.39558pt too wide) in paragraph at lines 2069--2070
+[]\TU/STIXTwoText(0)/m/n/12 (completion of an $\OMS/cmsy/m/n/12 1$\TU/STIXTwoTe
+xt(0)/m/n/12 -groupoid with respect to the directed derived category D($\OMS/cm
+sy/m/n/12 1$\TU/STIXTwoText(0)/m/n/12 -
+ []
+
+Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
+Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
+Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
+Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
+Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
+Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
+
+Underfull \hbox (badness 10000) in paragraph at lines 2089--2090
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 843--844
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 843--844
-
- []
-
+Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
+Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
+Missing character: There is no ↔ (U+2194) in font STIX Two Text Regular/OT:scri
+pt=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 852--853
+Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 852--853
+Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 857--858
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 857--858
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 862--863
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 862--863
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 869--870
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 869--870
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 889--896
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--896
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--896
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--896
+Underfull \hbox (badness 10000) in paragraph at lines 2133--2134
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 889--896
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 889--896
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 898--899
-
- []
-
-[18] [19] (./InternalUniverses.aux)
+[15] [16] (./InternalUniverses.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1382,12 +1384,12 @@ runsystem(rm InternalUniverses.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 30913 strings out of 476179
- 658567 string characters out of 5809544
- 1103181 words of memory out of 5000000
- 51096 multiletter control sequences out of 15000+600000
- 482934 words of font info for 108 fonts, out of 8000000 for 9000
+ 31021 strings out of 476179
+ 661382 string characters out of 5809544
+ 1104493 words of memory out of 5000000
+ 51197 multiletter control sequences out of 15000+600000
+ 484890 words of font info for 117 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 83i,14n,89p,474b,779s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,14n,89p,1244b,779s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on InternalUniverses.pdf (19 pages).
+Output written on InternalUniverses.pdf (16 pages).

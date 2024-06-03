@@ -72,7 +72,7 @@ Here are the packages that I use
 \newunicodechar{ᵐ}{${}^{\texttt{m}}$}
 \newunicodechar{ⁿ}{${}^{\texttt{n}}$}
 \newunicodechar{ᵒ}{${}^{\texttt{o}}$}
-\newunicodechar{ᵖ}{${}^{\texttt{ω}}$}
+\newunicodechar{ᵖ}{${}^{\texttt{p}}$}
 \newunicodechar{ʳ}{${}^{\texttt{r}}$}
 \newunicodechar{ˢ}{${}^{\texttt{s}}$}
 \newunicodechar{ᵗ}{${}^{\texttt{t}}$}
@@ -94,7 +94,7 @@ Here are the packages that I use
 \newunicodechar{⁹}{${}^{\texttt{9}}$}
 \newunicodechar{⁻}{${}^{\texttt{-}}$}
 \newunicodechar{ᵒ}{${}^{\texttt{o}}$}
-\newunicodechar{ᵖ}{${}^{\texttt{ω}}$}
+\newunicodechar{ᵖ}{${}^{\texttt{p}}$}
 \newunicodechar{⁻}{${}^{\texttt{-}}$}
 \newunicodechar{¹}{${}^{\texttt{1}}$}
 \newunicodechar{₀}{${}_{\texttt{0}}$}
@@ -416,28 +416,26 @@ Here are the packages that I use
     }}
 
 \AddToShipoutPicture*
-  {\put(470,737){
-
-    \href{http://www.linearlibrary.net/CategoryTheory.pdf}{\texttt{.pdf file}}\\
-
+  {\put(470,767){
+    \href{https://www.github.com/linlib/InternalUniverses/blob/main/StringDiagramGenerator.py}{\texttt{.py file}}
   }}
 
 \AddToShipoutPicture*
   {\put(470,752){
-    \href{https://github.com/linlib/CategoryTheory/CategoryTheory.tex}{\texttt{.tex file}}\\
-
-  }}
-
-\AddToShipoutPicture*
-  {\put(470,767){
-    \href{http://www.linearlibrary.net/CategoryTheory/CategoryTheory.py}{\texttt{.py file}}
+    \href{https://www.github.com/linlib/InternalUniverses/blob/main/InternalUniverses.tex}{\texttt{.tex file}}\\
 
   }}
 
 \AddToShipoutPicture*
   {\put(470,737){
 
-    \href{https://github.com/linlib/CategoryTheory/CategoryTheory.pdf}{\texttt{.pdf file}}\\
+    \href{http://www.github.com/linlib/InternalUniverses/blob/main/InternalUniverses.pdf}{\texttt{.pdf file}}\\
+
+  }}
+
+  \AddToShipoutPicture*
+  {\put(470,722){
+    \href{https://www.github.com/linlib/InternalUniverses/blob/main/InternalUniverses.lean}{\texttt{.lean file}}
 
   }}
 
@@ -460,12 +458,12 @@ Here are the packages that I use
 
 \AddToShipoutPicture*
   {\put(470,767){
-    \href{https://github.com/linlib/ThreeWhiteheadTheorems/StringDiagramGenerator.py}{\texttt{.py file}}
+    \href{https://github.com/linlib/ThreeWhiteheadTheorems/blob/main/StringDiagramGenerator.py}{\texttt{.py file}}
   }}
 
 \AddToShipoutPicture*
   {\put(470,752){
-    \href{https://github.com/linlib/ThreeWhiteheadTheorems/ThreeWhiteheadTheorems.tex}{\texttt{.tex file}}\\
+    \href{https://github.com/linlib/ThreeWhiteheadTheorems/blob/main/ThreeWhiteheadTheorems.tex}{\texttt{.tex file}}\\
 
   }}
 
@@ -473,13 +471,13 @@ Here are the packages that I use
 \AddToShipoutPicture*
   {\put(470,737){
 
-    \href{http://linearlibrary.net/ThreeWhiteheadTheorems/October19th.pdf}{\texttt{.pdf file}}\\
+    \href{https://github.com/linlib/ThreeWhiteheadTheorems/blob/main/ThreeWhiteheadTheorems.pdf}{\texttt{.pdf file}}\\
 
   }}
 
   \AddToShipoutPicture*
   {\put(470,722){
-    \href{https://github.com/linlib/ThreeWhiteheadTheorems/ThreeWhiteheadTheorems.lean}{\texttt{.lean file}}
+    \href{https://github.com/linlib/ThreeWhiteheadTheorems/blob/main/ThreeWhiteheadTheorems.lean}{\texttt{.lean file}}
 
   }}
 
@@ -487,10 +485,10 @@ Here are the packages that I use
 
 %LEAN: 
 \begin{center}
-  \begin{tcolorbox}[width=3.5in,colback={white},coltitle=white]
+  \begin{tcolorbox}[width=4.3in,colback={white},coltitle=white]
   \begin{center}
   \ \\
-  \scalebox{2}{\texttt{Internal Universes}}
+  \scalebox{3}{\texttt{Internal Universes}}
   \ \\
   \end{center}
   \end{tcolorbox}
@@ -524,7 +522,10 @@ $\texttt{∞\_(∞-Grpd₀)}$ &  $\texttt{D(∞\_(∞-Grpd₀))}$  & $\texttt{�
 
 In this repository I would like to consider Kan extensions and homotopy Kan extensions, obtaining a thorough account of Lurie's straightening and unstraightening concepts.\\
 
-
+\begin{enumerate}
+\item Complexes of abelian groups and ∞-spaces are the same as ∞-presheaves on E.obj ℕ.
+\item 
+\end{enumerate}
 
 \newpage
 \section{Unicode}
@@ -691,9 +692,7 @@ import TheWhiteheadTheorem
 \ \\
 \ \\
 \thispagestyle{empty}
-\begin{center}
-Copyright\ \textcopyright \ June 2023 Elliot Dean Young.\ All rights reserved.\\
-\end{center}
+
 \large %%%%%%%% HERE IS THE large LARGE size textsize set text size
 \newpage 
 \ \\
@@ -780,10 +779,29 @@ D(∞\_(∞-Cat)⁄-) ≃ D([-ᵒᵖ,∞\_(∞-Cat)]) & \\
 \end{longtable}
 }
 
+\noindent\textcolor{Red}{\rule{16cm}{1mm}}
+\begin{center}
+\texttt{Implementation Progress}
+\end{center}
+\noindent\textcolor{Red}{\rule{16cm}{1mm}}
+
+\noindent\textcolor{Red}{\rule{16cm}{1mm}}
+\begin{center}
+\texttt{Writing Progress}
+\end{center}
+\noindent\textcolor{Red}{\rule{16cm}{1mm}}
+
 
 \iffalse
-The way in which γ⃗ and γ⃡ are irreducible is governed by the ??? theorem in the repository concerning internal universes.\\
+The way in which γ⃗ and γ⃡ are irreducible is governed by the ??? theorem in the repository concerning internal universes.
+\fi
 
+\iffalse
+B is D(-) • // • E
+\fi
+
+\iffalse
+Yet more internal universes come about when we consider the internal version of ∞-spaces
 \fi
 
 
@@ -800,12 +818,12 @@ The way in which γ⃗ and γ⃡ are irreducible is governed by the ??? theorem 
 
 
 
+
 \chapter{∞\_(∞-Cat)}
 
 
 
 
-\iffalse
 
 \iffalse
 RedPRL
@@ -835,8 +853,6 @@ https://arxiv.org/pdf/2202.13132.pdf
 
 - synthetic
 
-In the last years, formalization of mathematics has caught the attention of an in- creasing number of mathematicians. The process of formalizing typically starts with mathematical definitions, theorem statements and proofs stated in natural language, proverbially written with pen and paper. Then, each step is made precise enough to ensure the full development is unambiguously and completely verifiable. Finally, the resulting precise steps are translated to produce a document written in a formal language. The process is complete when software can read this document and cer- tify that the formal development has no logical errors or omissions. Formalization requires a formalism, a system of logic that can decide which steps are allowed and which cause errors.
-This thesis concerns formalization of mathematics in the Lean theorem prover [90], as part of the Mathlib library [117].1 Lean is an example of an interactive theorem prover (ITP) or proof assistant, a program allowing users to perform precise and verified mathematical reasoning on the computer. Lean is an interactive theorem prover because the user is expected to enter a proof themself in the formal language, guided interactively by the software reporting proof progress in response to typed commands, so in turn the user can type new commands in response to the proof state. The proof state includes a list of available hypotheses and unproved goals, and any logical errors that Lean has detected. Working interactively in this way involves a specialized or extended text editor2 that shows the state of the proof assistant and updates dynamically as the user types or moves through documents.
 In contrast, automated theorem provers search autonomously for a proof, given a theorem statement. The output of automated theorem provers has been used with success as ingredients of a solution to open mathematical problems [65, 73, 83], but it appears we are still far away from completely automating the insights that were needed to translate these specific conjectures to a form the computer can solve, let alone figure out how to do so for any given conjecture. Human interaction will be needed for computer proving for the foreseeable future.
 The division between automated and interactive provers is not absolute. There are hammers, tools that use the output of automated theorem provers to build interactive proofs [42, 71, 102]. Moreover, all generally used interactive theorem provers offer a variety of more specific automation tools that relieve the user from having to break down every proof to the lowest-level logical deduction rules. Still, the formalizer has to be much more explicit about details that can be safely left out in pen and paper mathematics.
 If interactive theorem proving requires extra work, why not stick to pen and paper? A simple answer is: it is fun to work with an interactive theorem prover, since collaborating on a library of formal mathematics is in a way the ultimate massively multiplayer online puzzle video game.3
@@ -1932,13 +1948,6 @@ def internal_presheaf_delooping_principal_proof (C : D(∞-ℂ𝕒𝕥).Obj) : i
 
 
 
-Further reading:
-
-https://arxiv.org/pdf/2303.02382.pdf
-
-\fi
-
-
 \iffalse
 \multicolumn{2}{||c||}{\texttt{Chapter 17: }Pullback Systems} \\
 \hline
@@ -1962,18 +1971,7 @@ $\texttt{χ\_(Γ)}$ & The characteristic morphism \\
 
 \iffalse
 
-{
-\footnotesize
-\begin{longtable}{|| l || l ||} 
-\hline
-\multicolumn{1}{||c||}{$\texttt{Section}$} & \multicolumn{1}{|c||}{$\texttt{Description}$} \\
-\hline \hline
- &  \\
-\hline \hline
- &  \\
-\hline \hline
-\end{longtable}
-}
+
 
 
 \multicolumn{2}{||c||}{\texttt{Chapter 18: }Kan Extensions} \\
@@ -2105,9 +2103,7 @@ After establishing several interesting features of Lan D(∞-Cat),  Fᵒᵖ : [C
 \section{Bibliography}
 
 
-\begin{enumerate}
-\item 
-\end{enumerate}
+
 
 
 
@@ -2133,7 +2129,6 @@ Dean Young is a graduate student at New York University, where he studies mathem
 \newpage
 \ \\
 \thispagestyle{empty}
-\pagecolor{Yellow}
 
 
 

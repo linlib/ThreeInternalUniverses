@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.8)  13 APR 2024 18:31
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.8)  24 MAY 2024 19:17
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1088,38 +1088,43 @@ LaTeX Info: Redefining \nameref on input line 407.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--450
+Underfull \hbox (badness 10000) in paragraph at lines 446--448
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 448--450
+Underfull \hbox (badness 10000) in paragraph at lines 446--448
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--487
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--499
+Overfull \hbox (4.03673pt too wide) in paragraph at lines 491--492
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 511
+LaTeX Font Info:    Trying to load font information for U+msa on input line 509
 .
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 511
+LaTeX Font Info:    Trying to load font information for U+msb on input line 509
 .
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 51
-1.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 50
+9.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
@@ -1131,37 +1136,36 @@ File: ll.png Graphic file (type bmp)
  [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 530--530
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 530--530
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--533
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
 
  []
 
 LaTeX Font Info:    Trying to load font information for U+bbold on input line 5
-81.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/bbold/Ubbold.fd)
+26.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/bbold/Ubbold.fd) [2]
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+
+ []
+
 Missing character: There is no ≫ (U+226B) in font STIX Two Text Regular/OT:scri
 pt=latn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--644
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 
  []
 
@@ -1173,208 +1177,236 @@ FB8B5B72E5CA78.pygtex
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 2.
 ) [3] [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 698--701
+Underfull \hbox (badness 10000) in paragraph at lines 692--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--701
+Underfull \hbox (badness 10000) in paragraph at lines 692--695
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 706--718
+Underfull \hbox (badness 10000) in paragraph at lines 698--710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--718
+Underfull \hbox (badness 10000) in paragraph at lines 698--710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--718
+Underfull \hbox (badness 10000) in paragraph at lines 698--710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--718
+Underfull \hbox (badness 10000) in paragraph at lines 698--710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--718
+Underfull \hbox (badness 10000) in paragraph at lines 698--710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--718
+Underfull \hbox (badness 10000) in paragraph at lines 698--710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--718
+Underfull \hbox (badness 10000) in paragraph at lines 698--710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--718
+Underfull \hbox (badness 10000) in paragraph at lines 698--710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--718
+Underfull \hbox (badness 10000) in paragraph at lines 698--710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--718
+Underfull \hbox (badness 10000) in paragraph at lines 698--710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--718
+Underfull \hbox (badness 10000) in paragraph at lines 698--710
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 720--720
+Underfull \hbox (badness 10000) in paragraph at lines 712--712
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--720
+Underfull \hbox (badness 10000) in paragraph at lines 712--712
 
  []
 
-Missing character: There is no ω (U+03C9) in font [lmmono8-regular]:!
-Missing character: There is no ω (U+03C9) in font [lmmono8-regular]:!
-Missing character: There is no ω (U+03C9) in font [lmmono8-regular]:!
-Missing character: There is no ω (U+03C9) in font [lmmono8-regular]:!
+
+Overfull \hbox (28.85152pt too wide) in paragraph at lines 782--783
+[][][] 
+ []
+
+
+Overfull \hbox (28.85152pt too wide) in paragraph at lines 786--787
+[][][] 
+ []
+
+
+Overfull \hbox (28.85152pt too wide) in paragraph at lines 788--789
+[][][] 
+ []
+
+
+Overfull \hbox (28.85152pt too wide) in paragraph at lines 792--793
+[][][] 
+ []
+
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 798--799
+Underfull \hbox (badness 10000) in paragraph at lines 809--810
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 798--799
+Underfull \hbox (badness 10000) in paragraph at lines 809--810
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 801--802
+Underfull \hbox (badness 10000) in paragraph at lines 812--813
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 801--802
+Underfull \hbox (badness 10000) in paragraph at lines 812--813
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 806--807
+Underfull \hbox (badness 10000) in paragraph at lines 817--818
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 806--807
+Underfull \hbox (badness 10000) in paragraph at lines 817--818
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 810--811
+Underfull \hbox (badness 10000) in paragraph at lines 822--823
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 810--811
+Underfull \hbox (badness 10000) in paragraph at lines 822--823
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 917--917
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2037--2038
+Underfull \hbox (badness 10000) in paragraph at lines 917--917
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 934--935
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2039--2040
+Underfull \hbox (badness 10000) in paragraph at lines 934--935
 
  []
 
-Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
-Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
-Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
-Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
 
-Overfull \hbox (0.39558pt too wide) in paragraph at lines 2069--2070
+Underfull \hbox (badness 10000) in paragraph at lines 2028--2029
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2030--2031
+
+ []
+
+
+Overfull \hbox (0.39558pt too wide) in paragraph at lines 2060--2061
 []\TU/STIXTwoText(0)/m/n/12 (completion of an $\OMS/cmsy/m/n/12 1$\TU/STIXTwoTe
 xt(0)/m/n/12 -groupoid with respect to the directed derived category D($\OMS/cm
 sy/m/n/12 1$\TU/STIXTwoText(0)/m/n/12 -
  []
 
-Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
-Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
-Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
-Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
-Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
-Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
 
-Underfull \hbox (badness 10000) in paragraph at lines 2089--2090
-
- []
-
-[12]
-Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
-Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
-Missing character: There is no ↔ (U+2194) in font STIX Two Text Regular/OT:scri
-pt=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ω (U+03C9) in font [lmmono12-regular]:!
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2112--2112
+Underfull \hbox (badness 10000) in paragraph at lines 2080--2081
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 2124--2131
+Missing character: There is no ↔ (U+2194) in font STIX Two Text Regular/OT:scri
+pt=latn;language=dflt;mapping=tex-text;!
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 2103--2103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2124--2131
+Underfull \hbox (badness 10000) in paragraph at lines 2103--2103
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 2113--2120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2124--2131
+Underfull \hbox (badness 10000) in paragraph at lines 2113--2120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2124--2131
+Underfull \hbox (badness 10000) in paragraph at lines 2113--2120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2124--2131
+Underfull \hbox (badness 10000) in paragraph at lines 2113--2120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2124--2131
+Underfull \hbox (badness 10000) in paragraph at lines 2113--2120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2133--2134
+Underfull \hbox (badness 10000) in paragraph at lines 2113--2120
 
  []
 
-[15] [16] (./InternalUniverses.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 2122--2123
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 2130--2132
+
+ []
+
+[18] (./InternalUniverses.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1384,12 +1416,12 @@ runsystem(rm InternalUniverses.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 31021 strings out of 476179
- 661382 string characters out of 5809544
+ 31020 strings out of 476179
+ 661367 string characters out of 5809544
  1104493 words of memory out of 5000000
- 51197 multiletter control sequences out of 15000+600000
+ 51196 multiletter control sequences out of 15000+600000
  484890 words of font info for 117 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  83i,14n,89p,1244b,779s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on InternalUniverses.pdf (16 pages).
+Output written on InternalUniverses.pdf (18 pages).

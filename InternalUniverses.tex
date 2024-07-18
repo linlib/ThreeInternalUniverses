@@ -488,19 +488,49 @@ Here are the packages that I use
 {\footnotesize
 \begin{center}
 \scalebox{1.1}{
+\begin{tabular}{|| l | l ||} 
+\hline
+$\texttt{D(∞\_(∞-Cat))}$  & $\texttt{D(∞\_(∞-Cat)⁄C)}$\\
+\hline
+$\texttt{D(∞\_(∞-Grpd))}$  & $\texttt{D(∞\_(∞-Grpd)⁄G)}$ \\
+\hline
+$\texttt{D(∞\_(∞-Grpd₀))}$  & $\texttt{D(∞\_(∞-Grpd₀)⁄G₀)}$ \\
+\hline
+\end{tabular}}
+\end{center}}
+\ \\
+
+\iffalse
+{\footnotesize
+\begin{center}
+\scalebox{1.1}{
 \begin{tabular}{|| l | l || l | l ||} 
 \hline
-$\texttt{∞\_(∞-Cat)}$   &  $\texttt{D(∞\_(∞-Cat))}$  & $\texttt{∞\_(∞-Cat)⁄C}$    & $\texttt{D(∞\_(∞-Cat)⁄C)}$\\
+$\texttt{∞\_(∞-Space)}$ &  $\texttt{D(∞\_(∞-Space))}$  & $\texttt{∞\_(A${}^{\infty}$-Alg A)}$  & $\texttt{D(∞\_(A${}^{\infty}$-Alg A))}$ \\
 \hline
-$\texttt{∞\_(∞-Grpd)}$  &  $\texttt{D(∞\_(∞-Grpd))}$  & $\texttt{∞\_(∞-Grpd)⁄G}$    & $\texttt{D(∞\_(∞-Grpd)⁄G)}$ \\
+$\texttt{∞\_(∞-Space)}$ &  $\texttt{D(∞\_(∞-Space))}$  & $\texttt{∞\_(A${}^{\infty}$-Alg A)}$  & $\texttt{D(∞\_(A${}^{\infty}$-Alg A))}$ \\
  \hline
-$\texttt{∞\_(∞-Grpd₀)}$ &  $\texttt{D(∞\_(∞-Grpd₀))}$  & $\texttt{∞\_(∞-Grpd₀)⁄G₀}$  & $\texttt{D(∞\_(∞-Grpd₀)⁄G₀)}$ \\
- \hline
-$\texttt{∞\_(∞-Space)}$ &  $\texttt{D(∞\_(∞-Space))}$  & $\texttt{∞\_(∞-Alg A)}$  & $\texttt{D(∞\_(∞-Alg A))}$ \\
+$\texttt{∞\_(∞-Space)}$ &  $\texttt{D(∞\_(∞-Space))}$  & $\texttt{∞\_(A${}^{\infty}$-Alg A)}$  & $\texttt{D(∞\_(A${}^{\infty}$-Alg A))}$ \\
  \hline
 \end{tabular}}
 \end{center}}
+\fi
 
+\iffalse
+{\footnotesize
+\begin{center}
+\scalebox{1.1}{
+\begin{tabular}{|| l | l ||} 
+\hline
+$\texttt{D(∞\_(∞-Cat))}$  & $\texttt{D(∞\_(∞-Cat)⁄C)}$\\
+\hline
+$\texttt{D(∞\_(∞-Grpd))}$  & $\texttt{D(∞\_(∞-Grpd)⁄G)}$ \\
+ \hline
+$\texttt{D(∞\_(∞-Grpd₀))}$  & $\texttt{D(∞\_(∞-Grpd₀)⁄G₀)}$ \\
+\hline
+\end{tabular}}
+\end{center}}
+\fi
 \ \\
 \ \\
 
@@ -734,9 +764,9 @@ Introduction & \\
 \hline 
 χ⃗ॱ : &  \\
 \hline
-D(χ⃗𛲔) &  \\
+D(χ⃗𛲔) : &  \\
 \hline
-D(χ⃗ॱ) &  \\
+D(χ⃗ॱ) :  &  \\
 \hline
 D(∞$\_$(∞-Grpd₋₁)⁄-) &  \\
 \hline
@@ -775,8 +805,8 @@ D(∞\_(∞-Cat)⁄-) & \\
 D([-ᵒᵖ,∞\_(∞-Cat)]) & \\
 \hline
 D(∞\_(∞-Cat)⁄-) ≃ D([-ᵒᵖ,∞\_(∞-Cat)]) & \\
-\hline
-\multicolumn{2}{||c||}{∞\_(∞-Spc)} \\
+\hline \hline
+\multicolumn{2}{||c||}{???} \\
 \hline \hline
 χ𛲔 & \\
 \hline
@@ -792,7 +822,23 @@ D(χॱ) & \\
 \hline
 ??? & \\
 \hline
-\multicolumn{2}{||c||}{∞\_(Spectra)} \\
+\multicolumn{2}{||c||}{???} \\
+\hline \hline
+χ𛲔 & \\
+\hline
+χॱ & \\
+\hline
+D(χ𛲔) & \\
+\hline
+D(χॱ) & \\
+\hline
+??? & \\
+\hline
+??? & \\
+\hline
+??? & \\
+\hline \hline
+\multicolumn{2}{||c||}{???} \\
 \hline \hline
 ??? & \\
 \hline
@@ -825,23 +871,105 @@ D(χॱ) & \\
 
 
 
+\section{∞\_(∞-Cat)}
 
-\chapter{∞\_(∞-Grpd₀)}
+%LEAN: 
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Blue,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+structure adjoint_system where
+  Obj : category
+  Pnt : Obj.Obj
+  CmpObj : Obj.Obj →
+        category
+  CmpHom : (C : Obj.Obj) →
+        (D : Obj.Obj) →
+        (F : Obj.Hom C D) →
+        functor (CmpObj C) (CmpObj D)
+  CmpIdn : (C : Obj.Obj) → ((CmpHom C C (𝟙_(Obj) C)) = 𝟏_(𝐂𝐚𝐭) (CmpObj C))
+  CmpCmp : (C : Obj.Obj) → (D : Obj.Obj) → (E : Obj.Obj) → (F : Obj.Hom C D) → (G : Obj.Hom D E) → (((CmpHom D E G) •_(𝐂𝐚𝐭) (CmpHom C D F)) = CmpHom C E (G ∘_(Obj) F))
+  Fix : Obj ≃_(𝐂𝐚𝐭) (CmpObj Pnt)
+  Pul : (C : Obj.Obj) →
+        (D : Obj.Obj) →
+        (F : Obj.Hom C D) →
+       functor (CmpObj D) (CmpObj C)
+  η : (C : Obj.Obj) → (D : Obj.Obj) → (F : Obj.Hom C D) → ((𝐂𝐚𝐭.Hom (CmpObj C) (CmpObj C)).Hom (𝟏_(𝐂𝐚𝐭) (CmpObj C)) ((Pul C D F) •_(𝐂𝐚𝐭) (CmpHom C D F)))
+  ε : (C : Obj.Obj) → (D : Obj.Obj) → (F : Obj.Hom C D) → ((𝐂𝐚𝐭.Hom (CmpObj D) (CmpObj D)).Hom ((CmpHom C D F) •_(𝐂𝐚𝐭) (Pul C D F)) (𝟏_(𝐂𝐚𝐭) (CmpObj D)))
+  Id₁ : (C : Obj.Obj) → (D : Obj.Obj) → (F : Obj.Hom C D) → (AdjId₁ 𝐂𝐚𝐭 (CmpObj C) (CmpObj D) (CmpHom C D F) (Pul C D F) (η C D F) (ε C D F))
+  Id₂ : (C : Obj.Obj) → (D : Obj.Obj) → (F : Obj.Hom C D) → (AdjId₂ 𝐂𝐚𝐭 (CmpObj C) (CmpObj D) (CmpHom C D F) (Pul C D F) (η C D F) (ε C D F))
+  Inf : Obj.Obj
+  el : Obj.Hom Pnt Inf
+  Chi : (C : Obj.Obj) → (F : (CmpObj C).Obj) → ((Obj.Hom) C Inf)
+-- Ord : ((Pul C Inf (Chi C F)) → ???
+-- Ovr : (C : Obj.Obj) → (F : (CmpObj C).Obj) → ((Pul C Inf (Chi C F)).Hom (???) (???) (Chi ???) = F)
+
+\end{minted}
+\end{tcolorbox}
+\end{center}
+
+...
+
+%LEAN: 
+\begin{center}
+\begin{tcolorbox}[width=5in,colback={white},title={\begin{center}\texttt{Lean \thelcounter} \addtocounter{lcounter}{1}  \end{center}},colbacktitle=Blue,coltitle=black]
+\begin{minted}[breaklines, escapeinside=||]{lean}
+
+/-
+  Inf : Obj.Obj
+  el : Obj.Hom Pnt Inf
+  Chi : (C : Obj.Obj) → (F : (CmpObj C).Obj) → ((Obj.Hom) C Inf)
+-- Ord : ((Pul C Inf (Chi C F)) → ???
+--  Ovr : (C : Obj.Obj) → (F : (CmpObj C).Obj) → ((Pul C Inf (Chi C F)).Hom (???) (???) (Chi ???) = F)
+-/
+
+\end{minted}
+\end{tcolorbox}
+\end{center}
+
+\begin{enumerate}
+\item ...
+\end{enumerate}
+
+
+
+\section{∞\_(∞-Grpd)}
 
 
 
 
-\chapter{∞\_(∞-Grpd)}
+\section{∞\_(∞-Grpd₀)}
 
 
 
 
-\chapter{∞\_(∞-Spc)}
+\section{∞\_(∞-???)}
 
 
 
 
-\chapter{∞\_(Spectra)}
+\section{∞\_(∞-???)}
+
+
+
+
+\section{∞\_(∞-Space)}
+
+
+
+
+
+\iffalse
+If the main results concerning fibrations, inner fibrations, left fibrations?, cofibrations, 
+\fi
+
+
+\iffalse
+A comonadic adjoint system with overobject classifier is a pullback system.
+but pullback is not always homotopy pullback. 
+Pullback is effective for descent in the case of fibrations.
+Fibrant replacement is the solution to the problem that.
+\fi
 
 
 
